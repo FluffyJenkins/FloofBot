@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const botToken = require("./token");
 
 const COMMAND_TRIGGER = ">";
 
@@ -284,4 +285,4 @@ client.on('message', function (msg) {
 
 });
 
-client.login('Mjg3MzkyNDE0MjI0NzQ0NDQ4.C5x-rQ.oNLIZne8B8C1ueWQEsL0z0gVByQ');
+client.login(botToken);
