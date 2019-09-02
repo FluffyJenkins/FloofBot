@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const botToken = require("./token");
+const botToken = require("./token").token;
 
 const COMMAND_TRIGGER = ">";
 
